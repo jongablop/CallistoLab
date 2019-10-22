@@ -17,3 +17,18 @@ CallistoLab gives you the opportunity to interact with your data in a new way. Y
 CallistoLab Lite is a reduced version of CallistoLab, which aims to be a usefull plotting tool. In this version, everything relative to simulations have been taken out simplifying the interface and improving the performance.
 
 [Try it now here](https://mybinder.org/v2/gh/jongablop/CallistoLab/master?urlpath=%2Fapps%2FCallistoLab-Lite.ipynb)
+
+
+### Dependencies
+
+This package depends on the following packages:
+
+- `qgrid`
+- `appmode`
+- `bqplot`(=0.11.2)
+- `scikit-learn`
+- `scipy`
+- `numpy`
+- `matplotlib`
+- `fileupload`
+- `jupyterlab_latex`

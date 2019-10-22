@@ -3,3 +3,13 @@ channels:
   - conda-forge
 dependencies:
 - qgrid
+- appmode
+- bqplot=0.11.2
+- scikit-learn
+- scipy
+- numpy
+- pip
+- matplotlib
+- pip:
+  - fileupload
+  - jupyterlab_latex

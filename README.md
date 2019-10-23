@@ -32,3 +32,7 @@ This package depends on the following packages:
 - `matplotlib`
 - `fileupload`
 - `jupyterlab_latex`
+
+### Cite as
+
+Jon Gabirondo López. (2019, October 23). jongablop/CallistoLab: First release of CallistoLab (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.3517215

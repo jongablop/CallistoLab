@@ -1,4 +1,8 @@
-# CallistoLab
+# CallistoLab 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3517215.svg)](https://doi.org/10.5281/zenodo.3517215)
+
+
 
 A tool aimed for a satisfactory learning experience at the many times never-ending, long void, and tale-telling sessions at the Introductory Physics Laboratory.
 

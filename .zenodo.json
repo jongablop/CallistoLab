@@ -1,0 +1,20 @@
+{
+  "creators": [
+    {
+      "name": "Gabirondo-López, Jon",
+      "orcid": "0000-0002-3510-4606"
+    },
+    {
+      "affiliation": "Fisika Aplikatua II Saila, Zientzia eta Teknologia Fakultatea, Universidad del País Vasco UPVEHU",
+      "name": "Igartua, Josu M",
+      "orcid": "0000-0001-7983-5331"
+    },
+  ],
+  "keywords": [
+    "laboratory",
+	"data manipulation"
+    "interactive",
+  ],
+  "license": "GPL-3.0",
+  "upload_type": "software"
+}

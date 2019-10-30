@@ -1,6 +1,6 @@
 # CallistoLab 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3517215.svg)](https://doi.org/10.5281/zenodo.3517215)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3517214.svg)](https://doi.org/10.5281/zenodo.3517214)
 
 
 

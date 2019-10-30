@@ -39,4 +39,4 @@ This package depends on the following packages:
 
 ### Cite as
 
-Jon Gabirondo López. (2019, October 23). jongablop/CallistoLab: First release of CallistoLab (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.3517215
+Gabirondo-López, Jon, & Igartua, Josu M. (2019, October 30). jongablop/CallistoLab: 1.1 (Version v1.1). Zenodo. http://doi.org/10.5281/zenodo.3523220

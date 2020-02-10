@@ -11,6 +11,7 @@ dependencies:
 - pip
 - matplotlib
 - ipywidgets=7.5.1
+- pandas=0.24.1
 - pip:
   - fileupload
   - jupyterlab_latex

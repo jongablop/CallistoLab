@@ -1,4 +1,4 @@
-# CallistoLab 
+# CallistoLab
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3517214.svg)](https://doi.org/10.5281/zenodo.3517214)
 
@@ -13,14 +13,18 @@ CallistoLab allows you to open your data directly from a CSV file or to introduc
 CallistoLab gives you the opportunity to interact with your data in a new way. You can calculate regressions easily, seeing how every point of your data affects the regression curve. You can also simulate what changes in your experiment would produce better results by interacting directly with the points in the figure.
 
  Once you have finished, you can export your plot to PDF or PNG format in 300 DPI.
- 
- 
- 
+
+
+
 ## CallistoLab Lite
 
 CallistoLab Lite is a reduced version of CallistoLab, which aims to be a usefull plotting tool. In this version, everything relative to simulations have been taken out simplifying the interface and improving the performance.
 
 [Try it now here](https://mybinder.org/v2/gh/jongablop/CallistoLab/master?urlpath=%2Fapps%2FCallistoLab-Lite.ipynb)
+
+You can test the beta version of CallistoLab Lite v2.0 here:
+
+[CallistoLab Lite v2.0 (beta)](https://mybinder.org/v2/gh/jongablop/CallistoLab/master?urlpath=%2Fapps%2F___CallistoLab-Lite-2.0.ipynb)
 
 
 ### Dependencies

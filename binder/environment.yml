@@ -2,25 +2,16 @@ name: qgrid_docs
 channels:
   - conda-forge
 dependencies:
-- qgrid=1.1.0
-#- appmode=0.5.0
-#- bqplot=0.11.2
-#- scikit-learn
-#- scipy
-#- numpy=1.16.1
+- qgrid
+- appmode
+- bqplot
+- scikit-learn
+- scipy
+- numpy
 - pip
-#- matplotlib=3.0.2
-#- ipywidgets=7.5.1
-#- pandas=0.24.1
+- matplotlib
+- ipywidgets
+- pandas=0.25.3
 - pip:
   - fileupload
   - jupyterlab_latex
-  - appmode==0.5.0
-  - bqplot==0.11.5
-  - ipywidgets>=7.5.1
-  - notebook>=4.0.0
-  - numpy==1.16.1
-  - pandas==0.24.1
-  #- qgrid==1.1.0
-  - widgetsnbextension==3.5.1
-  - win-unicode-console==0.5

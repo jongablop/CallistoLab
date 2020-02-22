@@ -1,4 +1,4 @@
-name: qgrid_docs
+name: CallistoLab-env
 channels:
   - conda-forge
 dependencies:

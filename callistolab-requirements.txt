@@ -1,5 +1,5 @@
 jupyter
-fielupload
+fileupload
 appmode==0.7.0
 bqplot==0.11.5
 ipywidgets>=7.5.1

@@ -35,6 +35,10 @@ WORKDIR /home/CallistoLab/
 
 # If numpy is not installed independently Pandas can't be installed
 RUN python3 -m pip install --upgrade pip numpy
+
+# Install pandas manually
+sudo apt-get install python3-pandas
+
 RUN python3 -m pip install -r callistolab-requirements.txt
 
 EXPOSE 8888

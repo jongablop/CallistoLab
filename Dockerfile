@@ -33,6 +33,9 @@ WORKDIR /home/
 RUN git clone https://github.com/jongablop/CallistoLab.git
 WORKDIR /home/CallistoLab/
 
+# Install Latex dependencies
+RUN cat ./binder/apt.txt | xargs sudo apt-get install
+
 # If numpy is not installed independently Pandas can't be installed
 RUN python3 -m pip install --upgrade pip numpy
 
@@ -40,6 +43,9 @@ RUN python3 -m pip install --upgrade pip numpy
 RUN apt-get install -y python3-pandas
 
 RUN python3 -m pip install -r callistolab-requirements.txt
+
+# Run post build commands
+RUN ./binder postBuild
 
 EXPOSE 8888
 

@@ -46,7 +46,7 @@ RUN python3 -m pip install -r callistolab-requirements.txt
 
 # Run post build commands
 RUN ["chmod", "+x", "./binder/postBuild"]
-RUN bash ./binder/postBuild
+RUN ./binder/postBuild
 
 EXPOSE 8888
 

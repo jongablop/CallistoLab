@@ -34,7 +34,7 @@ RUN git clone https://github.com/jongablop/CallistoLab.git
 WORKDIR /home/CallistoLab/
 
 # Install Latex dependencies
-RUN cat binder/apt.txt | xargs sudo apt-get install -y
+RUN cat ./binder/apt.txt | xargs apt-get install -y
 
 # If numpy is not installed independently Pandas can't be installed
 RUN python3 -m pip install --upgrade pip numpy

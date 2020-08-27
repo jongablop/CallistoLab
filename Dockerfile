@@ -6,6 +6,9 @@ LABEL maintainer Jon GABIRONDO-LOPEZ <jongablop@gmail.com>
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
 
+# HACK: don't fail when no qemu binary provided
+COPY qemu-${ARCH}-static* /usr/bin/
+
 RUN apt-get update \
     # Install apt-utils
     && apt-get install -y apt-utils \
@@ -22,8 +25,7 @@ RUN apt-get update \
     && apt-get clean -y 
     # && rm -rf /var/lib/apt/lists/* || true
 
-RUN apt-get update \ 
-    && apt-get install -y python3-pip
+RUN apt-get install -y python3-pip
 
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog

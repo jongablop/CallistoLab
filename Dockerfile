@@ -1,5 +1,5 @@
 ARG BASE_IMAGE_PREFIX
-FROM arm64v8/ubuntu:latest
+FROM ${BASE_IMAGE_PREFIX}ubuntu:latest
 
 LABEL maintainer Jon GABIRONDO-LOPEZ <jongablop@gmail.com>
 

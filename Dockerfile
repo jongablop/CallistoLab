@@ -6,6 +6,8 @@ LABEL maintainer Jon GABIRONDO-LOPEZ <jongablop@gmail.com>
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
 
+ARG ARCH
+
 # HACK: don't fail when no qemu binary provided
 COPY qemu-${ARCH}-static* /usr/bin/
 

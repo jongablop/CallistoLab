@@ -20,7 +20,7 @@ RUN apt-get update \
     # cleanup
     && apt-get autoremove -y \
     && apt-get clean -y \
-    && rm -rf /var/lib/apt/lists/* || true
+    # && rm -rf /var/lib/apt/lists/* || true
 
 RUN apt-get update \ 
     && apt-get install -y python3-pip

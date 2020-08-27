@@ -1,4 +1,5 @@
-FROM ubuntu:latest
+ARG BASE_IMAGE_PREFIX
+FROM ${BASE_IMAGE_PREFIX}/ubuntu:latest
 
 LABEL maintainer Jon GABIRONDO-LOPEZ <jongablop@gmail.com>
 

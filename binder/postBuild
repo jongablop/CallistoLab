@@ -9,8 +9,6 @@ jupyter nbextension enable  --user --py fileupload
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust CallistoLab-Lite.ipynb
 
-#!/bin/bash
-
 # run matplotlib once to generate the font cache
 python3 -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
 	

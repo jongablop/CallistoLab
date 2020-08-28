@@ -9,3 +9,4 @@ notebook>=4.0.0
 qgrid==1.1.0
 widgetsnbextension==3.5.1
 win-unicode-console==0.5
+jupyter_contrib_nbextensions

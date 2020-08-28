@@ -49,6 +49,9 @@ RUN apt-get install -y python3-pandas
 
 RUN python3 -m pip install -r callistolab-requirements.txt
 
+# Add jupyter commands to path
+ENV PATH="~/.local/bin:${PATH}"
+
 # Run post build commands
 RUN ["chmod", "+x", "./binder/postBuild"]
 RUN ./binder/postBuild

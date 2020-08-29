@@ -8,7 +8,7 @@ jupyter nbextension install --user --py fileupload
 jupyter nbextension enable  --user --py fileupload
 
 # Add qgrid module.
-jupyter nbextension enable --user --py qgrid/extension
+jupyter nbextension enable --py --sys-prefix qgrid
 
 # Add appmode.
 jupyter nbextension     enable --py --sys-prefix appmode

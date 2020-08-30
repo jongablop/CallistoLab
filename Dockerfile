@@ -56,7 +56,7 @@ ENV PATH="~/.local/bin:${PATH}"
 RUN ["chmod", "+x", "./binder/postBuild"]
 RUN ./binder/postBuild
 
-RUN jupyter nbextension enable --py --sys-prefix qgrid
+RUN jupyter nbextension enable --py qgrid
 
 EXPOSE 8888
 

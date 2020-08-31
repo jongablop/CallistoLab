@@ -25,7 +25,7 @@ RUN apt-get update \
 	# Install pip3
     && apt-get install -y python3-pip \
 	# Install pandas manually
-	&& apt-get install -y python3-pandas
+	&& apt-get install -y python3-pandas \
     # cleanup
     && apt-get autoremove -y \
     && apt-get clean -y 

@@ -22,12 +22,15 @@ RUN apt-get update \
     # Install jupyter
     && apt-get install -y jupyter-notebook \
     && apt-get install -y jupyter-nbextension-jupyter-js-widgets \
+	# Install pip3
+    && apt-get install -y python3-pip \
+	# Install pandas manually
+	&& apt-get install -y python3-pandas
     # cleanup
     && apt-get autoremove -y \
     && apt-get clean -y 
     # && rm -rf /var/lib/apt/lists/* || true
 
-RUN apt-get install -y python3-pip
 
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog
@@ -35,17 +38,14 @@ ENV DEBIAN_FRONTEND=dialog
 WORKDIR /home/
 
 # Clone the repo
-RUN git clone https://github.com/jongablop/CallistoLab.git
-WORKDIR /home/CallistoLab/
+RUN git clone https://github.com/jongablop/CallistoLab.git callistolab-tmp
+WORKDIR /home/callistolab-tmp/
 
 # Install Latex dependencies
 RUN cat ./binder/apt.txt | xargs apt-get install -y
 
 # If numpy is not installed independently Pandas can't be installed
 RUN python3 -m pip install --upgrade pip numpy
-
-# Install pandas manually
-RUN apt-get install -y python3-pandas
 
 RUN python3 -m pip install -r callistolab-requirements.txt
 

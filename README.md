@@ -1,6 +1,6 @@
 # CallistoLab
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3517214.svg)](https://doi.org/10.5281/zenodo.3517214)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3517214.svg)](https://doi.org/10.5281/zenodo.3517214) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/jongablop/callistolab)
 
 
 
@@ -26,8 +26,32 @@ You can test the beta version of CallistoLab Lite v2.0 here:
 
 [CallistoLab Lite v2.0 (beta)](https://mybinder.org/v2/gh/jongablop/CallistoLab/master?urlpath=%2Fapps%2F___CallistoLab-Lite-2.0.ipynb)
 
+## How to use
 
-### Dependencies
+Multiarchitecture (ARM32v5, ARM64v7 and AMD64) Docker images of the proyect are available at DockerHub ([``jongablop/callistolab``](https://hub.docker.com/repository/docker/jongablop/callistolab)), so you only have to run the following commands to get the latest version of CallistoLab up and running:
+
+``````
+# We strongly recommend to download the latest version of CallistoLab everytime it is used.
+$ (sudo) docker pull jongablop/callistolab:latest
+
+# Access CallistoLab at http://localhost:ANY_FREE_PORT
+$(sudo) docker run -p ANY_FREE_PORT:8888 jongablop/callistolab:latest
+``````
+
+### CAUTION
+
+1. We strongly do **not** recommend using this images in a production environment, as it can generate **security issues**.
+
+2. **ARM64v7 and ARMv5** images (ARM32v5 has not been tested yet, if there is any proble open a new issue, please) need to be configured manually after the container is running. To do so, open a **new terminal in Jupyter and run the following command**:
+
+``````
+jupyter nbextension enable --py --sys-prefix qgrid
+``````
+
+
+#### Multiarch images are based in [rmoriz/multiarch-test](https://github.com/rmoriz/multiarch-test) repository.
+
+## Dependencies
 
 This package depends on the following packages:
 
@@ -41,6 +65,6 @@ This package depends on the following packages:
 - `fileupload`
 - `jupyterlab_latex`
 
-### Cite as
+## Cite as
 
 Gabirondo-López, Jon, & Igartua, Josu M. (2019, October 30). jongablop/CallistoLab: 1.1 (Version v1.1). Zenodo. http://doi.org/10.5281/zenodo.3523220

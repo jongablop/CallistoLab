@@ -28,7 +28,7 @@ You can test the beta version of CallistoLab Lite v2.0 here:
 
 You can test the beta version of CallistoLab Lite v3.0 here:
 
-[CallistoLab Lite v2.0 (beta)](https://mybinder.org/v2/gh/jongablop/CallistoLab/master?urlpath=%2Fapps%2FCallistoLab-Lite-3.ipynb)
+[CallistoLab Lite v3.0 (beta)](https://mybinder.org/v2/gh/jongablop/CallistoLab/master?urlpath=%2Fapps%2FCallistoLab-Lite-3.ipynb)
 
 ## How to use
 

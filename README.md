@@ -26,6 +26,10 @@ You can test the beta version of CallistoLab Lite v2.0 here:
 
 [CallistoLab Lite v2.0 (beta)](https://mybinder.org/v2/gh/jongablop/CallistoLab/master?urlpath=%2Fapps%2F___CallistoLab-Lite-2.0.ipynb)
 
+You can test the beta version of CallistoLab Lite v3.0 here:
+
+[CallistoLab Lite v2.0 (beta)](https://mybinder.org/v2/gh/jongablop/CallistoLab/master?urlpath=%2Fapps%2FCallistoLab-Lite-3.ipynb)
+
 ## How to use
 
 Multiarchitecture (ARM32v5, ARM64v7 and AMD64) Docker images of the proyect are available at DockerHub ([``jongablop/callistolab``](https://hub.docker.com/repository/docker/jongablop/callistolab)), so you only have to run the following commands to get the latest version of CallistoLab up and running:
